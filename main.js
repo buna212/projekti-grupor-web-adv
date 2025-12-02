@@ -1,4 +1,10 @@
-// Initialization for ES Users
-import { Collapse, Ripple, initMDB } from "mdb-ui-kit";
 
-initMDB({ Collapse, Ripple });
+const openBtn = document.getElementById("openPopup");
+const closeBtn = document.getElementById("closePopup");
+const popup = document.getElementById("popup");
+
+
+
+openBtn.onclick = function() {
+     popup.style.display = "block";
+}
