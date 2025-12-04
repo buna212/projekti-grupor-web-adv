@@ -33,3 +33,23 @@ button[type="submit"] {
   color: white;
   border-radius: 8px;
 }
+
+#openPopup {
+  color: white;
+  background-color: brown;
+}
+
+.nav-link {
+  display:inline-block;
+}
+
+#hero_section_dog {
+  width: 100%;
+}
+
+#x_button {
+  border-radius: 100px;
+  border-color: brown;
+  margin-right: -90%;
+  margin-top: -50%;
+}
