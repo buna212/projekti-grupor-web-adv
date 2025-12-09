@@ -94,6 +94,55 @@
   </div>
 </section>
   </div>
+
+<div class="container">
+    <form id="contactForm" class="form">
+
+        <h2>Pet Sitting Contact Form</h2>
+
+        <div class="input-group">
+            <input type="text" id="name" required>
+            <label for="name">Your Name</label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email">Email</label>
+        </div>
+
+        <div class="input-group">
+            <input type="tel" id="phone" required>
+            <label for="phone">Phone Number</label>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="petName" required>
+            <label for="petName">Pet's Name</label>
+        </div>
+
+        <div class="input-group">
+            <select id="petType" required>
+                <option value="" disabled selected>Select Pet Type</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Rabbit</option>
+                <option>Bird</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <textarea id="message" rows="4" required></textarea>
+            <label for="message" class="textarea-label">Your Message (dates, needs, etc.)</label>
+        </div>
+
+        <button type="submit">Send Request</button>
+
+        <p id="formMessage" class="hidden"></p>
+
+    </form>
+</div>
+
 <script src="main.js"></script>
 </body>
 </html>
