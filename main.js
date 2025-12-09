@@ -10,5 +10,5 @@ openBtn.onclick = function() {
 }
 
 closeBtn.onclick = function() {
-     popup.style.display = "hidden";
+     popup.style.display = "none";
 }
