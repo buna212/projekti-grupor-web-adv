@@ -474,3 +474,18 @@ button[type="submit"] {
 .footer_bottom .socials a:hover {
   color: #ffedd1;
 }
+
+#imgiqenit{
+  width: 100%;
+  
+}
+
+.about-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.service_card{
+  margin: 50px;
+}
