@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
     <a class="navbar-brand me-2" href="index.html">
       <img
@@ -16,26 +16,15 @@
         height="50"
         alt="petpal_logo Logo"
         loading="lazy"
-        style="margin: -10px;"
+        style="margin: -10px; align-items: self-start;"
       />
     </a>
-    <button
-      data-mdb-collapse-init
-      class="navbar-toggler"
-      type="button"
-      data-mdb-target="#navbarButtonsExample"
-      aria-controls="navbarButtonsExample"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
     <div class="collapse navbar-collapse" id="navbarButtonsExample">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
-          <a class="nav-link" href="about.html">Contact</a>
-          <a class="nav-link" href="about.html">Booking</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="booking.html">Booking</a>
         </li>
       </ul>
         <button data-mdb-ripple-init type="button" class="btn btn-primary me-3" id="openPopup">
@@ -45,6 +34,8 @@
     </div>
   </div>
 </nav>
+
+<h1>This is the About Page</h1>
   <div id="popup" class="popup">
 <section class="text-center text-lg-start">
   <div class="container py-4">
@@ -95,54 +86,51 @@
 </section>
   </div>
 
-<div class="container">
-    <form id="contactForm" class="form">
-
-        <h2>Pet Sitting Contact Form</h2>
-
-        <div class="input-group">
-            <input type="text" id="name" required>
-            <label for="name">Your Name</label>
+<footer class="footer_brown">
+  <div class="footer_container">
+    <div class="footer_top">
+      <div class="footer_brand">
+        <h2>PetPal Hotel</h2>
+        <p>Luxury care for your pets while you are away.</p>
+      </div>
+      <div class="footer_links">
+        <div class="footer_section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-
-        <div class="input-group">
-            <input type="email" id="email" required>
-            <label for="email">Email</label>
+        <div class="footer_section">
+          <h4>Services</h4>
+          <ul>
+            <li>Pet Sitting</li>
+            <li>Pet Training</li>
+            <li>Grooming</li>
+            <li>Luxury Suites</li>
+          </ul>
         </div>
-
-        <div class="input-group">
-            <input type="tel" id="phone" required>
-            <label for="phone">Phone Number</label>
+        <div class="footer_section">
+          <h4>Contact Us</h4>
+          <p>123 Pet Lane, Animal City</p>
+          <p>+1 234 567 890</p>
+          <p>info@petpalhotel.com</p>
         </div>
-
-        <div class="input-group">
-            <input type="text" id="petName" required>
-            <label for="petName">Pet's Name</label>
-        </div>
-
-        <div class="input-group">
-            <select id="petType" required>
-                <option value="" disabled selected>Select Pet Type</option>
-                <option>Dog</option>
-                <option>Cat</option>
-                <option>Rabbit</option>
-                <option>Bird</option>
-                <option>Other</option>
-            </select>
-        </div>
-
-        <div class="input-group">
-            <textarea id="message" rows="4" required></textarea>
-            <label for="message" class="textarea-label">Your Message (dates, needs, etc.)</label>
-        </div>
-
-        <button type="submit">Send Request</button>
-
-        <p id="formMessage" class="hidden"></p>
-
-    </form>
-</div>
-
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p>&copy; 2025 PetPal Hotel. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">🐾</a>
+        <a href="#">📸</a>
+        <a href="#">🐦</a>
+      </div>
+    </div>
+  </div>
+</footer>
 <script src="main.js"></script>
 </body>
 </html>
