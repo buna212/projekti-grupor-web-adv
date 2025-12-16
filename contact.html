@@ -34,98 +34,60 @@
     </div>
   </div>
 </nav>
-  <div id="popup" class="popup">
-<section class="text-center text-lg-start">
-  <div class="container py-4">
-    <div class="row g-0 align-items-center justify-content-center">
-      <div class="col-lg-6 mb-5 mb-lg-0">
-        <div class="card cascading-right bg-body-tertiary" style="backdrop-filter: blur(30px);">
-          <div class="card-body p-5 shadow-5 text-center">
-            <button id="x_button">X</button>
-            <h2 class="fw-bold mb-5">Sign up now</h2>
-            <form>
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">First name</label>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Last name</label>
-                  </div>
-                </div>
-              </div>
-              <div data-mdb-input-init class="form-outline mb-4">
-                <input type="email" id="form3Example3" class="form-control" />
-                <label class="form-label" for="form3Example3">Email address</label>
-              </div>
-              <div data-mdb-input-init class="form-outline mb-4">
-                <input type="password" id="form3Example4" class="form-control" />
-                <label class="form-label" for="form3Example4">Password</label>
-              </div>
-              <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                <label class="form-check-label" for="form2Example33">
-                  Subscribe to our newsletter
-                </label>
-              </div>
-              <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
-                Sign up
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
+
+
+<img  src="images/769135.jpg" alt="about" id="imgiqenit">
+
+
+<h1>Contact us for your pet’s entertainmet</h1>
+
+
+<form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
     </div>
   </div>
-</section>
+</form>
+
+<hr>
+<hr>
+<hr>
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">PLEASE ENTER YOUR EMAIL ADDRESS !</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <hr>
+  <hr>
+  <hr>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">WHAT KIND OF PET DO YOU HAVE ?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+       <option>Dog</option>
+      <option>Cat</option>
+      <option>Parrot</option>
+      <option>Fish</option>
+    </select>
   </div>
 
-  
-<div class="container">
-    <form id="contactForm" class="form">
+  <hr>
+  <hr>
+  <hr>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">DO YOU HAVE ANY TIPS OR A HEADS UP FOR YOUR PET ? </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
 
-        <h2>Pet Sitting Contact Form</h2>
-
-        <div class="input-group">
-            <input type="text" id="name" required>
-            <label for="name">Your Name</label>
-        </div>
-
-        <div class="input-group">
-            <input type="email" id="email" required>
-            <label for="email">Email</label>
-        </div>
-
-        <div class="input-group">
-            <input type="tel" id="phone" required>
-            <label for="phone">Phone Number</label>
-        </div>
-
-        <div class="input-group">
-            <input type="text" id="petName" required>
-            <label for="petName">Pet's Name</label>
-        </div>
-
-        <div class="input-group">
-            <select id="petType" required>
-                <option value="" disabled selected>Select Pet Type</option>
-                <option>Dog</option>
-                <option>Cat</option>
-                <option>Rabbit</option>
-                <option>Bird</option>
-                <option>Other</option>
-            </select>
-        </div>
-
-        <div class="input-group">
-            <textarea id="message" rows="4" required></textarea>
-            <label for="message" class="textarea-label">Your Message (dates, needs, etc.)</label>
-        </div>
-
+<hr>
+<hr>
+<hr>
         <button type="submit">Send Request</button>
 
         <p id="formMessage" class="hidden"></p>
