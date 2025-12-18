@@ -15,24 +15,10 @@ closeBtn.onclick = function() {
 
 function checkForm() {
 
-  var firstName = document.getElementById("firstName").value;
-  var lastName = document.getElementById("lastName").value;
-  var email = document.getElementById("email").value;
+  var email = document.getElementById("form3Example3").value;
 
-  var nameRegex = /^[A-Za-z]+$/;
+
   var emailRegex = /@.*\.com$/;
-
-  if (nameRegex.test(firstName)) {
-    document.getElementById("firstNameError").style.display = "none";
-  } else {
-    document.getElementById("firstNameError").style.display = "block";
-  }
-
-  if (nameRegex.test(lastName)) {
-    document.getElementById("lastNameError").style.display = "none";
-  } else {
-    document.getElementById("lastNameError").style.display = "block";
-  }
 
   if (emailRegex.test(email)) {
     document.getElementById("emailError").style.display = "none";
